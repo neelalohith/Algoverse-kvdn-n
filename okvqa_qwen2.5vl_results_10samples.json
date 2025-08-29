@@ -1,0 +1,215 @@
+{
+  "model_name": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "dataset": "OK-VQA validation",
+  "evaluation_date": "2025-08-12 17:16:44",
+  "evaluation_method": "Official VQA Accuracy Metric",
+  "total_processed": 10,
+  "failed_downloads": 0,
+  "processing_errors": 0,
+  "vqa_accuracy": 0.26,
+  "exact_match_rate": 0.2,
+  "weighted_correct": 2.6,
+  "exact_matches": 2,
+  "sample_results": [
+    {
+      "question_id": 2971475,
+      "image_id": 297147,
+      "question": "What sport can you use this for?",
+      "prediction": "motorcycle racing",
+      "ground_truth": [
+        "race",
+        "race",
+        "race",
+        "race",
+        "race",
+        "race",
+        "motocross",
+        "motocross",
+        "ride",
+        "ride"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 3397615,
+      "image_id": 339761,
+      "question": "Name the type of plant this is?",
+      "prediction": "pothos",
+      "ground_truth": [
+        "vine",
+        "vine",
+        "vine",
+        "vine",
+        "climb",
+        "climb",
+        "look like some kind of ivy",
+        "look like some kind of ivy",
+        "ficus",
+        "ficus"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 3575865,
+      "image_id": 357586,
+      "question": "What toy is this?",
+      "prediction": "teddy bear",
+      "ground_truth": [
+        "stuffed animal",
+        "stuffed animal",
+        "stuffed animal",
+        "stuffed animal",
+        "stuffed animal",
+        "stuffed animal",
+        "teddy bear",
+        "teddy bear",
+        "teddy bear",
+        "teddy bear"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 949225,
+      "image_id": 94922,
+      "question": "Which part of this animal would be in use of it was playing the game that is played with the items the man is holding?",
+      "prediction": "mouth",
+      "ground_truth": [
+        "mouth",
+        "mouth",
+        "mouth",
+        "mouth",
+        "mouth",
+        "mouth",
+        "mouth",
+        "mouth",
+        "mouth",
+        "mouth"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 2076115,
+      "image_id": 207611,
+      "question": "What could this gentleman be carrying in that red bag?",
+      "prediction": "laptop",
+      "ground_truth": [
+        "cloth",
+        "cloth",
+        "cloth",
+        "cloth",
+        "food",
+        "food",
+        "lunch",
+        "lunch",
+        "shoe",
+        "shoe"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 5723996,
+      "image_id": 572399,
+      "question": "Who leaves a toilet like this?",
+      "prediction": "Person",
+      "ground_truth": [
+        "man",
+        "man",
+        "man",
+        "man",
+        "man",
+        "man",
+        "men",
+        "men",
+        "men",
+        "men"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 5759705,
+      "image_id": 575970,
+      "question": "A center affixed unit like this one in a kitchen is called a what?",
+      "prediction": "land",
+      "ground_truth": [
+        "island",
+        "island",
+        "island",
+        "island",
+        "island",
+        "island",
+        "island",
+        "island",
+        "island",
+        "island"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 3045575,
+      "image_id": 304557,
+      "question": "Why might someone go to this place?",
+      "prediction": "Shopping",
+      "ground_truth": [
+        "shop",
+        "shop",
+        "shop",
+        "shop",
+        "nyc",
+        "nyc",
+        "shop",
+        "shop",
+        "business",
+        "business"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 2183655,
+      "image_id": 218365,
+      "question": "What does this grow from?",
+      "prediction": "plant",
+      "ground_truth": [
+        "ground",
+        "ground",
+        "ground",
+        "ground",
+        "plant",
+        "plant",
+        "hibiscus plant stem",
+        "hibiscus plant stem",
+        "root",
+        "root"
+      ],
+      "vqa_accuracy": 0.6000000000000001,
+      "exact_match": false
+    },
+    {
+      "question_id": 2863135,
+      "image_id": 286313,
+      "question": "What is that man doing with the bat?",
+      "prediction": "holding",
+      "ground_truth": [
+        "swing",
+        "swing",
+        "swing",
+        "swing",
+        "swing",
+        "swing",
+        "hit",
+        "hit",
+        "try to hit hte ball",
+        "try to hit hte ball"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    }
+  ]
+}

@@ -1,0 +1,2015 @@
+{
+  "model_name": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "dataset": "OK-VQA validation",
+  "evaluation_date": "2025-08-12 17:21:22",
+  "evaluation_method": "Official VQA Accuracy Metric",
+  "total_processed": 100,
+  "failed_downloads": 0,
+  "processing_errors": 0,
+  "vqa_accuracy": 0.5120000000000001,
+  "exact_match_rate": 0.41,
+  "weighted_correct": 51.20000000000002,
+  "exact_matches": 41,
+  "sample_results": [
+    {
+      "question_id": 2971475,
+      "image_id": 297147,
+      "question": "What sport can you use this for?",
+      "prediction": "motorcycle racing",
+      "ground_truth": [
+        "race",
+        "race",
+        "race",
+        "race",
+        "race",
+        "race",
+        "motocross",
+        "motocross",
+        "ride",
+        "ride"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 3397615,
+      "image_id": 339761,
+      "question": "Name the type of plant this is?",
+      "prediction": "pothos",
+      "ground_truth": [
+        "vine",
+        "vine",
+        "vine",
+        "vine",
+        "climb",
+        "climb",
+        "look like some kind of ivy",
+        "look like some kind of ivy",
+        "ficus",
+        "ficus"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 3575865,
+      "image_id": 357586,
+      "question": "What toy is this?",
+      "prediction": "teddy bear",
+      "ground_truth": [
+        "stuffed animal",
+        "stuffed animal",
+        "stuffed animal",
+        "stuffed animal",
+        "stuffed animal",
+        "stuffed animal",
+        "teddy bear",
+        "teddy bear",
+        "teddy bear",
+        "teddy bear"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 949225,
+      "image_id": 94922,
+      "question": "Which part of this animal would be in use of it was playing the game that is played with the items the man is holding?",
+      "prediction": "mouth",
+      "ground_truth": [
+        "mouth",
+        "mouth",
+        "mouth",
+        "mouth",
+        "mouth",
+        "mouth",
+        "mouth",
+        "mouth",
+        "mouth",
+        "mouth"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 2076115,
+      "image_id": 207611,
+      "question": "What could this gentleman be carrying in that red bag?",
+      "prediction": "laptop",
+      "ground_truth": [
+        "cloth",
+        "cloth",
+        "cloth",
+        "cloth",
+        "food",
+        "food",
+        "lunch",
+        "lunch",
+        "shoe",
+        "shoe"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 5723996,
+      "image_id": 572399,
+      "question": "Who leaves a toilet like this?",
+      "prediction": "Person",
+      "ground_truth": [
+        "man",
+        "man",
+        "man",
+        "man",
+        "man",
+        "man",
+        "men",
+        "men",
+        "men",
+        "men"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 5759705,
+      "image_id": 575970,
+      "question": "A center affixed unit like this one in a kitchen is called a what?",
+      "prediction": "land",
+      "ground_truth": [
+        "island",
+        "island",
+        "island",
+        "island",
+        "island",
+        "island",
+        "island",
+        "island",
+        "island",
+        "island"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 3045575,
+      "image_id": 304557,
+      "question": "Why might someone go to this place?",
+      "prediction": "Shopping",
+      "ground_truth": [
+        "shop",
+        "shop",
+        "shop",
+        "shop",
+        "nyc",
+        "nyc",
+        "shop",
+        "shop",
+        "business",
+        "business"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 2183655,
+      "image_id": 218365,
+      "question": "What does this grow from?",
+      "prediction": "plant",
+      "ground_truth": [
+        "ground",
+        "ground",
+        "ground",
+        "ground",
+        "plant",
+        "plant",
+        "hibiscus plant stem",
+        "hibiscus plant stem",
+        "root",
+        "root"
+      ],
+      "vqa_accuracy": 0.6000000000000001,
+      "exact_match": false
+    },
+    {
+      "question_id": 2863135,
+      "image_id": 286313,
+      "question": "What is that man doing with the bat?",
+      "prediction": "holding",
+      "ground_truth": [
+        "swing",
+        "swing",
+        "swing",
+        "swing",
+        "swing",
+        "swing",
+        "hit",
+        "hit",
+        "try to hit hte ball",
+        "try to hit hte ball"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 299845,
+      "image_id": 29984,
+      "question": "Is this at a salt water beach or a lake?",
+      "prediction": "salt water",
+      "ground_truth": [
+        "salt water beach",
+        "salt water beach",
+        "salt water beach",
+        "salt water beach",
+        "salt water",
+        "salt water",
+        "lake",
+        "lake",
+        "beach",
+        "beach"
+      ],
+      "vqa_accuracy": 0.6000000000000001,
+      "exact_match": false
+    },
+    {
+      "question_id": 115115,
+      "image_id": 11511,
+      "question": "Who designed the statues?",
+      "prediction": "Artist",
+      "ground_truth": [
+        "artist",
+        "artist",
+        "artist",
+        "artist",
+        "guell",
+        "guell",
+        "toscano",
+        "toscano",
+        "aritect",
+        "aritect"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 3234605,
+      "image_id": 323460,
+      "question": "What is the name of the items the hot dog are topped with?",
+      "prediction": "vegetables",
+      "ground_truth": [
+        "condiment",
+        "condiment",
+        "condiment",
+        "condiment",
+        "onion relish",
+        "onion relish",
+        "vegetable",
+        "vegetable",
+        "relish",
+        "relish"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 5169165,
+      "image_id": 516916,
+      "question": "What is this desk used for?",
+      "prediction": "work",
+      "ground_truth": [
+        "work",
+        "work",
+        "work",
+        "work",
+        "compute",
+        "compute",
+        "work",
+        "work",
+        "office",
+        "office"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 217115,
+      "image_id": 21711,
+      "question": "What type of bike is on the ground?",
+      "prediction": "bicycle",
+      "ground_truth": [
+        "bmx",
+        "bmx",
+        "bmx",
+        "bmx",
+        "bicycle",
+        "bicycle",
+        "bicycle",
+        "bicycle",
+        "10 speed",
+        "10 speed"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 3133865,
+      "image_id": 313386,
+      "question": "What type of plane is that?",
+      "prediction": "passenger",
+      "ground_truth": [
+        "commercial",
+        "commercial",
+        "commercial",
+        "commercial",
+        "passenger",
+        "passenger",
+        "quanta",
+        "quanta",
+        "md 80",
+        "md 80"
+      ],
+      "vqa_accuracy": 0.6000000000000001,
+      "exact_match": false
+    },
+    {
+      "question_id": 4026395,
+      "image_id": 402639,
+      "question": "Is this a room for a boy or girl?",
+      "prediction": "girl",
+      "ground_truth": [
+        "girl",
+        "girl",
+        "girl",
+        "girl",
+        "girl",
+        "girl",
+        "girl",
+        "girl",
+        "girl",
+        "girl"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 4575845,
+      "image_id": 457584,
+      "question": "In what year was this desert first introduced?",
+      "prediction": "1907",
+      "ground_truth": [
+        "1847",
+        "1847",
+        "1847",
+        "1847",
+        "1860",
+        "1860",
+        "1934",
+        "1934",
+        "1900s",
+        "1900s"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 4883775,
+      "image_id": 488377,
+      "question": "What is this surf trick called?",
+      "prediction": "kickflip",
+      "ground_truth": [
+        "ride",
+        "ride",
+        "ride",
+        "ride",
+        "tube ride",
+        "tube ride",
+        "ollie",
+        "ollie",
+        "wave runner",
+        "wave runner"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 3017535,
+      "image_id": 301753,
+      "question": "What do they call running around the bases on a single hit?",
+      "prediction": "roundtrip",
+      "ground_truth": [
+        "homerun",
+        "homerun",
+        "homerun",
+        "homerun",
+        "homerun",
+        "homerun",
+        "home run",
+        "home run",
+        "home run",
+        "home run"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 1833195,
+      "image_id": 183319,
+      "question": "Why is this plugged in?",
+      "prediction": "battery low",
+      "ground_truth": [
+        "charge",
+        "charge",
+        "charge",
+        "charge",
+        "to have power and work",
+        "to have power and work",
+        "power",
+        "power",
+        "outlet",
+        "outlet"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 3970635,
+      "image_id": 397063,
+      "question": "What is the shape?",
+      "prediction": "Circular",
+      "ground_truth": [
+        "circle",
+        "circle",
+        "circle",
+        "circle",
+        "circle",
+        "circle",
+        "round",
+        "round",
+        "round",
+        "round"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 4976605,
+      "image_id": 497660,
+      "question": "What is the horsepower of the truck pulling the load?",
+      "prediction": "510",
+      "ground_truth": [
+        "510",
+        "510",
+        "510",
+        "510",
+        "510",
+        "510",
+        "420",
+        "420",
+        "500",
+        "500"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 2357845,
+      "image_id": 235784,
+      "question": "What kind of skiing is this person engaged in?",
+      "prediction": "cross country",
+      "ground_truth": [
+        "cross country",
+        "cross country",
+        "cross country",
+        "cross country",
+        "cross country",
+        "cross country",
+        "cross country",
+        "cross country",
+        "cross country",
+        "cross country"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 3190735,
+      "image_id": 319073,
+      "question": "What is the person in the photo wearing?",
+      "prediction": "wetsuit",
+      "ground_truth": [
+        "wetsuit",
+        "wetsuit",
+        "wetsuit",
+        "wetsuit",
+        "suit",
+        "suit",
+        "wet suit",
+        "wet suit",
+        "trunk",
+        "trunk"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 5144685,
+      "image_id": 514468,
+      "question": "What is the name of the board he is on?",
+      "prediction": "surfboard",
+      "ground_truth": [
+        "surf board",
+        "surf board",
+        "surf board",
+        "surf board",
+        "surfboard",
+        "surfboard",
+        "surfboard",
+        "surfboard",
+        "surf",
+        "surf"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 4371265,
+      "image_id": 437126,
+      "question": "Name the material used to make this car seat shown in this picture?",
+      "prediction": "fabric",
+      "ground_truth": [
+        "cloth",
+        "cloth",
+        "cloth",
+        "cloth",
+        "nylon",
+        "nylon",
+        "polyester",
+        "polyester",
+        "leather",
+        "leather"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 5182875,
+      "image_id": 518287,
+      "question": "What part of the face is the toothbrush in?",
+      "prediction": "mouth",
+      "ground_truth": [
+        "mouth",
+        "mouth",
+        "mouth",
+        "mouth",
+        "mouth",
+        "mouth",
+        "mouth",
+        "mouth",
+        "happy",
+        "happy"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 3804595,
+      "image_id": 380459,
+      "question": "What flavor is this pastry?",
+      "prediction": "chocolate",
+      "ground_truth": [
+        "blueberry",
+        "blueberry",
+        "blueberry",
+        "blueberry",
+        "cream cheese",
+        "cream cheese",
+        "chocolate",
+        "chocolate",
+        "strawberry",
+        "strawberry"
+      ],
+      "vqa_accuracy": 0.6,
+      "exact_match": false
+    },
+    {
+      "question_id": 5002005,
+      "image_id": 500200,
+      "question": "What kind of container are the flowers in?",
+      "prediction": "vase",
+      "ground_truth": [
+        "vase",
+        "vase",
+        "vase",
+        "vase",
+        "vase",
+        "vase",
+        "trolley",
+        "trolley",
+        "pot",
+        "pot"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 3156685,
+      "image_id": 315668,
+      "question": "What country does this appear to be?",
+      "prediction": "England",
+      "ground_truth": [
+        "scotland",
+        "scotland",
+        "scotland",
+        "scotland",
+        "scotland",
+        "scotland",
+        "usa",
+        "usa",
+        "england",
+        "england"
+      ],
+      "vqa_accuracy": 0.5999999999999999,
+      "exact_match": false
+    },
+    {
+      "question_id": 3736625,
+      "image_id": 373662,
+      "question": "Which of the foods in the picture is best for you to eat when you have a cold?",
+      "prediction": "soup",
+      "ground_truth": [
+        "soup",
+        "soup",
+        "soup",
+        "soup",
+        "soup",
+        "soup",
+        "chicken soup",
+        "chicken soup",
+        "fruit",
+        "fruit"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 4293695,
+      "image_id": 429369,
+      "question": "What do teenage pranksters do to this animal?",
+      "prediction": "drown",
+      "ground_truth": [
+        "tip",
+        "tip",
+        "tip",
+        "tip",
+        "tip",
+        "tip",
+        "tip",
+        "tip",
+        "tip",
+        "tip"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 4273415,
+      "image_id": 427341,
+      "question": "How many watts is that microwave?",
+      "prediction": "1000",
+      "ground_truth": [
+        "800",
+        "800",
+        "800",
+        "800",
+        "120",
+        "120",
+        "1000",
+        "1000",
+        "100",
+        "100"
+      ],
+      "vqa_accuracy": 0.6,
+      "exact_match": false
+    },
+    {
+      "question_id": 3938365,
+      "image_id": 393836,
+      "question": "What is this type of blanket called?",
+      "prediction": "quilt",
+      "ground_truth": [
+        "quilt",
+        "quilt",
+        "quilt",
+        "quilt",
+        "quilt",
+        "quilt",
+        "quilt",
+        "quilt",
+        "patchwork",
+        "patchwork"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 179845,
+      "image_id": 17984,
+      "question": "What south american country usually has this climate?",
+      "prediction": "brazil",
+      "ground_truth": [
+        "brazil",
+        "brazil",
+        "brazil",
+        "brazil",
+        "brazil",
+        "brazil",
+        "africa",
+        "africa",
+        "ecuador",
+        "ecuador"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 3268375,
+      "image_id": 326837,
+      "question": "What american restaurant features an open kitchen with visible cooking area such as this?",
+      "prediction": "In-N-Out Burger",
+      "ground_truth": [
+        "diner",
+        "diner",
+        "diner",
+        "diner",
+        "diner",
+        "diner",
+        "denny's",
+        "denny's",
+        "waffle house",
+        "waffle house"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 2780325,
+      "image_id": 278032,
+      "question": "What other big vehicle is often painted about the same shade as this vehicle?",
+      "prediction": "fire truck",
+      "ground_truth": [
+        "firetruck",
+        "firetruck",
+        "firetruck",
+        "firetruck",
+        "firetruck",
+        "firetruck",
+        "firetruck",
+        "firetruck",
+        "fire truck",
+        "fire truck"
+      ],
+      "vqa_accuracy": 0.5999999999999999,
+      "exact_match": false
+    },
+    {
+      "question_id": 1110325,
+      "image_id": 111032,
+      "question": "What brand is this wine?",
+      "prediction": "Becker Vineyards",
+      "ground_truth": [
+        "becker vineyard",
+        "becker vineyard",
+        "becker vineyard",
+        "becker vineyard",
+        "becker vineyard",
+        "becker vineyard",
+        "becker vineyard",
+        "becker vineyard",
+        "becker",
+        "becker"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 5096415,
+      "image_id": 509641,
+      "question": "What would happen if these items fall to the ground?",
+      "prediction": "break",
+      "ground_truth": [
+        "shatter",
+        "shatter",
+        "shatter",
+        "shatter",
+        "they would shatter",
+        "they would shatter",
+        "break",
+        "break",
+        "they would break",
+        "they would break"
+      ],
+      "vqa_accuracy": 0.6,
+      "exact_match": false
+    },
+    {
+      "question_id": 3413095,
+      "image_id": 341309,
+      "question": "What brand of suit is the man in the image wearing?",
+      "prediction": "Unknown",
+      "ground_truth": [
+        "brook brother",
+        "brook brother",
+        "brook brother",
+        "brook brother",
+        "gorgio armani",
+        "gorgio armani",
+        "name brand",
+        "name brand",
+        "gucchi",
+        "gucchi"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 1121605,
+      "image_id": 112160,
+      "question": "Where might i buy a print that resembles this photo?",
+      "prediction": "Etsy",
+      "ground_truth": [
+        "gallery",
+        "gallery",
+        "gallery",
+        "gallery",
+        "store",
+        "store",
+        "target",
+        "target",
+        "walmart",
+        "walmart"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 2645405,
+      "image_id": 264540,
+      "question": "What are the rolled black food items called?",
+      "prediction": "Sushi",
+      "ground_truth": [
+        "sushi",
+        "sushi",
+        "sushi",
+        "sushi",
+        "sushi",
+        "sushi",
+        "sushi",
+        "sushi",
+        "sushi",
+        "sushi"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 1089825,
+      "image_id": 108982,
+      "question": "What type of bird is this?",
+      "prediction": "blue jay",
+      "ground_truth": [
+        "blue jay",
+        "blue jay",
+        "blue jay",
+        "blue jay",
+        "bluebird",
+        "bluebird",
+        "songbird",
+        "songbird",
+        "goldfinch",
+        "goldfinch"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 2929715,
+      "image_id": 292971,
+      "question": "How can you tell that the people are not upset?",
+      "prediction": "smiling",
+      "ground_truth": [
+        "they are smile",
+        "they are smile",
+        "they are smile",
+        "they are smile",
+        "smile",
+        "smile",
+        "smile",
+        "smile",
+        "smile",
+        "smile"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 1902045,
+      "image_id": 190204,
+      "question": "How fast is the vehicle pictured capable of reaching?",
+      "prediction": "50 mph",
+      "ground_truth": [
+        "80 mph",
+        "80 mph",
+        "80 mph",
+        "80 mph",
+        "100 mph",
+        "100 mph",
+        "100 mph",
+        "100 mph",
+        "10mph",
+        "10mph"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 3774865,
+      "image_id": 377486,
+      "question": "Name the type of hat the man is wearing?",
+      "prediction": "Sombrero",
+      "ground_truth": [
+        "cowboy",
+        "cowboy",
+        "cowboy",
+        "cowboy",
+        "sombrero",
+        "sombrero",
+        "sombrero",
+        "sombrero",
+        "stetson",
+        "stetson"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 1282805,
+      "image_id": 128280,
+      "question": "What sates are these grown in?",
+      "prediction": "florida",
+      "ground_truth": [
+        "florida california",
+        "florida california",
+        "florida california",
+        "florida california",
+        "california",
+        "california",
+        "california",
+        "california",
+        "florida",
+        "florida"
+      ],
+      "vqa_accuracy": 0.5999999999999999,
+      "exact_match": false
+    },
+    {
+      "question_id": 1318415,
+      "image_id": 131841,
+      "question": "How does the bread taste?",
+      "prediction": "sweet",
+      "ground_truth": [
+        "good",
+        "good",
+        "good",
+        "good",
+        "like bread",
+        "like bread",
+        "sweet",
+        "sweet",
+        "delicious",
+        "delicious"
+      ],
+      "vqa_accuracy": 0.6,
+      "exact_match": false
+    },
+    {
+      "question_id": 1305165,
+      "image_id": 130516,
+      "question": "What is this type of mack truck used for?",
+      "prediction": "transport",
+      "ground_truth": [
+        "cement",
+        "cement",
+        "cement",
+        "cement",
+        "cement",
+        "cement",
+        "cement",
+        "cement",
+        "road work",
+        "road work"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 2845485,
+      "image_id": 284548,
+      "question": "What type of platform should this vehicle be on?",
+      "prediction": "railroad",
+      "ground_truth": [
+        "track",
+        "track",
+        "track",
+        "track",
+        "track",
+        "track",
+        "railroad",
+        "railroad",
+        "rail",
+        "rail"
+      ],
+      "vqa_accuracy": 0.6,
+      "exact_match": false
+    },
+    {
+      "question_id": 5069455,
+      "image_id": 506945,
+      "question": "What is the term for the effect used in this photo?",
+      "prediction": "distortion",
+      "ground_truth": [
+        "fisheye",
+        "fisheye",
+        "fisheye",
+        "fisheye",
+        "reflection",
+        "reflection",
+        "zoom",
+        "zoom",
+        "wide angle",
+        "wide angle"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 4247445,
+      "image_id": 424744,
+      "question": "What is the small white outdoor house like building called?",
+      "prediction": "Shed",
+      "ground_truth": [
+        "gazebo",
+        "gazebo",
+        "gazebo",
+        "gazebo",
+        "gazebo",
+        "gazebo",
+        "shed",
+        "shed",
+        "casida",
+        "casida"
+      ],
+      "vqa_accuracy": 0.6,
+      "exact_match": false
+    },
+    {
+      "question_id": 5681485,
+      "image_id": 568148,
+      "question": "What can the woman do with this toy?",
+      "prediction": "throw",
+      "ground_truth": [
+        "throw it",
+        "throw it",
+        "throw it",
+        "throw it",
+        "throw it",
+        "throw it",
+        "throw it",
+        "throw it",
+        "throw",
+        "throw"
+      ],
+      "vqa_accuracy": 0.5999999999999999,
+      "exact_match": false
+    },
+    {
+      "question_id": 857725,
+      "image_id": 85772,
+      "question": "Is this boy a professional player or still in high school?",
+      "prediction": "High school",
+      "ground_truth": [
+        "high school",
+        "high school",
+        "high school",
+        "high school",
+        "high school",
+        "high school",
+        "high school",
+        "high school",
+        "school",
+        "school"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 1396845,
+      "image_id": 139684,
+      "question": "What is the decorative fabric on the floor called?",
+      "prediction": "rug",
+      "ground_truth": [
+        "rug",
+        "rug",
+        "rug",
+        "rug",
+        "rug",
+        "rug",
+        "rug",
+        "rug",
+        "carpet",
+        "carpet"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 4732085,
+      "image_id": 473208,
+      "question": "Is this in a home kitchen or commercial kitchen?",
+      "prediction": "chen",
+      "ground_truth": [
+        "commercial",
+        "commercial",
+        "commercial",
+        "commercial",
+        "commercial",
+        "commercial",
+        "commercial",
+        "commercial",
+        "commercial",
+        "commercial"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 3030245,
+      "image_id": 303024,
+      "question": "Which type of helmet is used by the sport person shown in this picture?",
+      "prediction": "Baseball",
+      "ground_truth": [
+        "batter",
+        "batter",
+        "batter",
+        "batter",
+        "bat helmet",
+        "bat helmet",
+        "bat helmet",
+        "bat helmet",
+        "batter helmet",
+        "batter helmet"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 5342525,
+      "image_id": 534252,
+      "question": "Which brand of slipper is shown in this picture?",
+      "prediction": "unknown",
+      "ground_truth": [
+        "birkenstock",
+        "birkenstock",
+        "birkenstock",
+        "birkenstock",
+        "birkenstock",
+        "birkenstock",
+        "adidas",
+        "adidas",
+        "sandal",
+        "sandal"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 1649245,
+      "image_id": 164924,
+      "question": "Who directed the 2012 movie shown on the television in the picture?",
+      "prediction": "Joss Whedon",
+      "ground_truth": [
+        "joss whedon",
+        "joss whedon",
+        "joss whedon",
+        "joss whedon",
+        "joss whedon",
+        "joss whedon",
+        "joss wedon",
+        "joss wedon",
+        "gunn",
+        "gunn"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 1197855,
+      "image_id": 119785,
+      "question": "What time of day is it?",
+      "prediction": "evening",
+      "ground_truth": [
+        "noon",
+        "noon",
+        "noon",
+        "noon",
+        "afternoon",
+        "afternoon",
+        "night",
+        "night",
+        "lunch",
+        "lunch"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 511915,
+      "image_id": 51191,
+      "question": "Is this bathroom high or low end?",
+      "prediction": "High end.",
+      "ground_truth": [
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high",
+        "high end",
+        "high end",
+        "high end",
+        "high end"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 1943135,
+      "image_id": 194313,
+      "question": "Name one famous person whom also has a black and white one of these?",
+      "prediction": "marilyn monroe",
+      "ground_truth": [
+        "taylor swift",
+        "taylor swift",
+        "taylor swift",
+        "taylor swift",
+        "russell brand",
+        "russell brand",
+        "hillary clinton",
+        "hillary clinton",
+        "ernest hemingway",
+        "ernest hemingway"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 3325125,
+      "image_id": 332512,
+      "question": "Which item in this room is usually to wash hands?",
+      "prediction": "sink",
+      "ground_truth": [
+        "sink",
+        "sink",
+        "sink",
+        "sink",
+        "sink",
+        "sink",
+        "sink",
+        "sink",
+        "sink",
+        "sink"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 3763585,
+      "image_id": 376358,
+      "question": "What are the white objects on this animals head called?",
+      "prediction": "horns",
+      "ground_truth": [
+        "horn",
+        "horn",
+        "horn",
+        "horn",
+        "horn",
+        "horn",
+        "horn",
+        "horn",
+        "tusk",
+        "tusk"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 3959785,
+      "image_id": 395978,
+      "question": "Which airline has this insignia?",
+      "prediction": "kawat airways",
+      "ground_truth": [
+        "kuwait airway",
+        "kuwait airway",
+        "kuwait airway",
+        "kuwait airway",
+        "united",
+        "united",
+        "delta",
+        "delta",
+        "twa",
+        "twa"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 2162545,
+      "image_id": 216254,
+      "question": "When was the cola brand on the signs founded?",
+      "prediction": "1886",
+      "ground_truth": [
+        "1892",
+        "1892",
+        "1892",
+        "1892",
+        "1851",
+        "1851",
+        "1870's",
+        "1870's",
+        "1800",
+        "1800"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 2913705,
+      "image_id": 291370,
+      "question": "What type of hat is this gentleman wearing?",
+      "prediction": "top hat",
+      "ground_truth": [
+        "top",
+        "top",
+        "top",
+        "top",
+        "top hat",
+        "top hat",
+        "top hat",
+        "top hat",
+        "tophat",
+        "tophat"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 3304055,
+      "image_id": 330405,
+      "question": "What character does this clock look like?",
+      "prediction": "Mickey Mouse",
+      "ground_truth": [
+        "mickey mouse",
+        "mickey mouse",
+        "mickey mouse",
+        "mickey mouse",
+        "mickey mouse",
+        "mickey mouse",
+        "mouse",
+        "mouse",
+        "wall e",
+        "wall e"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 505145,
+      "image_id": 50514,
+      "question": "What fruit comes from these trees?",
+      "prediction": "coconut",
+      "ground_truth": [
+        "coconut",
+        "coconut",
+        "coconut",
+        "coconut",
+        "coconut",
+        "coconut",
+        "pineapple",
+        "pineapple",
+        "banana",
+        "banana"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 5666345,
+      "image_id": 566634,
+      "question": "What type of skiing is being done here?",
+      "prediction": "cross country",
+      "ground_truth": [
+        "cross country",
+        "cross country",
+        "cross country",
+        "cross country",
+        "cross country",
+        "cross country",
+        "cross country",
+        "cross country",
+        "snow ski",
+        "snow ski"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 1569995,
+      "image_id": 156999,
+      "question": "What is this animal famously known for?",
+      "prediction": "long neck",
+      "ground_truth": [
+        "long neck",
+        "long neck",
+        "long neck",
+        "long neck",
+        "long neck",
+        "long neck",
+        "long neck",
+        "long neck",
+        "neck",
+        "neck"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 4535205,
+      "image_id": 453520,
+      "question": "Are these animals mammals or insects?",
+      "prediction": "mammals",
+      "ground_truth": [
+        "mammal",
+        "mammal",
+        "mammal",
+        "mammal",
+        "mammal",
+        "mammal",
+        "mammal",
+        "mammal",
+        "animal",
+        "animal"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 3282845,
+      "image_id": 328284,
+      "question": "If it gets cold enough what will happen to the area being stepped over?",
+      "prediction": "freeze",
+      "ground_truth": [
+        "freeze",
+        "freeze",
+        "freeze",
+        "freeze",
+        "frozen",
+        "frozen",
+        "it will freeze over",
+        "it will freeze over",
+        "iced",
+        "iced"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 2335535,
+      "image_id": 233553,
+      "question": "How tall do these animals get?",
+      "prediction": "18 feet",
+      "ground_truth": [
+        "20 feet",
+        "20 feet",
+        "20 feet",
+        "20 feet",
+        "8 feey",
+        "8 feey",
+        "10 feet",
+        "10 feet",
+        "12 ft",
+        "12 ft"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 3589765,
+      "image_id": 358976,
+      "question": "What is the breed of this cat?",
+      "prediction": "tabby",
+      "ground_truth": [
+        "american shorthair",
+        "american shorthair",
+        "tabby",
+        "tabby",
+        "tortoise shell",
+        "tortoise shell",
+        "tabbie",
+        "tabbie",
+        "calico",
+        "calico"
+      ],
+      "vqa_accuracy": 0.6,
+      "exact_match": false
+    },
+    {
+      "question_id": 1050405,
+      "image_id": 105040,
+      "question": "Is this fruit or veggies?",
+      "prediction": "veggies",
+      "ground_truth": [
+        "veggies",
+        "veggies",
+        "veggies",
+        "veggies",
+        "vegetable",
+        "vegetable",
+        "veeggies",
+        "veeggies",
+        "veggie",
+        "veggie"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 5379826,
+      "image_id": 537982,
+      "question": "Why so many green vegetables?",
+      "prediction": "diet",
+      "ground_truth": [
+        "healthy",
+        "healthy",
+        "healthy",
+        "healthy",
+        "make salad",
+        "make salad",
+        "lot of vegetable are green",
+        "lot of vegetable are green",
+        "salad",
+        "salad"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 2352215,
+      "image_id": 235221,
+      "question": "What unpleasant emotional state does this weather phenomenon often cause?",
+      "prediction": "Fear.",
+      "ground_truth": [
+        "depression",
+        "depression",
+        "depression",
+        "depression",
+        "shock",
+        "shock",
+        "fright",
+        "fright",
+        "fear",
+        "fear"
+      ],
+      "vqa_accuracy": 0.5999999999999999,
+      "exact_match": false
+    },
+    {
+      "question_id": 4854245,
+      "image_id": 485424,
+      "question": "What kind of oven is on the table?",
+      "prediction": "Toaster oven",
+      "ground_truth": [
+        "toaster",
+        "toaster",
+        "toaster",
+        "toaster",
+        "toaster",
+        "toaster",
+        "toaster oven",
+        "toaster oven",
+        "ge",
+        "ge"
+      ],
+      "vqa_accuracy": 0.6,
+      "exact_match": false
+    },
+    {
+      "question_id": 2864225,
+      "image_id": 286422,
+      "question": "How do people use this?",
+      "prediction": "sail",
+      "ground_truth": [
+        "sail",
+        "sail",
+        "sail",
+        "sail",
+        "sail",
+        "sail",
+        "sail",
+        "sail",
+        "to sail",
+        "to sail"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 5192715,
+      "image_id": 519271,
+      "question": "What small cloth is used to wipe the face or eating this meal?",
+      "prediction": "napkin",
+      "ground_truth": [
+        "napkin",
+        "napkin",
+        "napkin",
+        "napkin",
+        "napkin",
+        "napkin",
+        "napkin",
+        "napkin",
+        "napkin",
+        "napkin"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 1449855,
+      "image_id": 144985,
+      "question": "What is this truck moving?",
+      "prediction": "documents",
+      "ground_truth": [
+        "furniture",
+        "furniture",
+        "furniture",
+        "furniture",
+        "furniture",
+        "furniture",
+        "good",
+        "good",
+        "cargo",
+        "cargo"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 5605665,
+      "image_id": 560566,
+      "question": "Which phase is that moon in?",
+      "prediction": "waxing",
+      "ground_truth": [
+        "half",
+        "half",
+        "half",
+        "half",
+        "half",
+        "half",
+        "half moon",
+        "half moon",
+        "half moon",
+        "half moon"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 3430685,
+      "image_id": 343068,
+      "question": "What kind of animal is clearly displayed on the cover of this bed?",
+      "prediction": "deer",
+      "ground_truth": [
+        "deer",
+        "deer",
+        "deer",
+        "deer",
+        "deer",
+        "deer",
+        "elk",
+        "elk",
+        "moose",
+        "moose"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 1527025,
+      "image_id": 152702,
+      "question": "What is a type of horseback sport?",
+      "prediction": "Riding",
+      "ground_truth": [
+        "polo",
+        "polo",
+        "polo",
+        "polo",
+        "race",
+        "race",
+        "race",
+        "race",
+        "ride",
+        "ride"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 1603935,
+      "image_id": 160393,
+      "question": "What item might be used to warm this item of furniture?",
+      "prediction": "heater",
+      "ground_truth": [
+        "electric blanket",
+        "electric blanket",
+        "electric blanket",
+        "electric blanket",
+        "blanker",
+        "blanker",
+        "cloth dryer",
+        "cloth dryer",
+        "blanket",
+        "blanket"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 2597615,
+      "image_id": 259761,
+      "question": "What fills the balloons?",
+      "prediction": "helium",
+      "ground_truth": [
+        "helium",
+        "helium",
+        "helium",
+        "helium",
+        "helium",
+        "helium",
+        "helium",
+        "helium",
+        "helium",
+        "helium"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 3883985,
+      "image_id": 388398,
+      "question": "Would this article of furniture typically be for public or private use?",
+      "prediction": "public",
+      "ground_truth": [
+        "public",
+        "public",
+        "public",
+        "public",
+        "public",
+        "public",
+        "public",
+        "public",
+        "public",
+        "public"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 4071465,
+      "image_id": 407146,
+      "question": "How many passengers can this plane accomodate?",
+      "prediction": "10",
+      "ground_truth": [
+        "15",
+        "15",
+        "15",
+        "15",
+        "10",
+        "10",
+        "18",
+        "18",
+        "8",
+        "8"
+      ],
+      "vqa_accuracy": 0.6000000000000001,
+      "exact_match": false
+    },
+    {
+      "question_id": 5525735,
+      "image_id": 552573,
+      "question": "What knocked the guy off his chair?",
+      "prediction": "water",
+      "ground_truth": [
+        "wave",
+        "wave",
+        "wave",
+        "wave",
+        "wave",
+        "wave",
+        "water",
+        "water",
+        "water",
+        "water"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 1000065,
+      "image_id": 100006,
+      "question": "What is the purpose of the logos on this truck?",
+      "prediction": "advertising",
+      "ground_truth": [
+        "identification",
+        "identification",
+        "identification",
+        "identification",
+        "advertising",
+        "advertising",
+        "advertising",
+        "advertising",
+        "sponsorship",
+        "sponsorship"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 5685555,
+      "image_id": 568555,
+      "question": "What is the purpose of these objects?",
+      "prediction": "art",
+      "ground_truth": [
+        "art",
+        "art",
+        "art",
+        "art",
+        "memorial",
+        "memorial",
+        "decoration",
+        "decoration",
+        "grave",
+        "grave"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 2873285,
+      "image_id": 287328,
+      "question": "What happens here?",
+      "prediction": "dogs sleeping",
+      "ground_truth": [
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "sleep",
+        "rest",
+        "rest"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 5649115,
+      "image_id": 564911,
+      "question": "What company is this plane flying for?",
+      "prediction": "one world",
+      "ground_truth": [
+        "oneworld",
+        "oneworld",
+        "oneworld",
+        "oneworld",
+        "1 world",
+        "1 world",
+        "1 world",
+        "1 world",
+        "not sure",
+        "not sure"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 4471175,
+      "image_id": 447117,
+      "question": "Name the type of curtains shown in this picture?",
+      "prediction": "sheer",
+      "ground_truth": [
+        "drape",
+        "drape",
+        "drape",
+        "drape",
+        "rod pocket curtain",
+        "rod pocket curtain",
+        "big",
+        "big",
+        "lace",
+        "lace"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 3294555,
+      "image_id": 329455,
+      "question": "What animal does the meat on the pizza come from?",
+      "prediction": "pig",
+      "ground_truth": [
+        "pig",
+        "pig",
+        "pig",
+        "pig",
+        "pig",
+        "pig",
+        "pig",
+        "pig",
+        "pig",
+        "pig"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 1365725,
+      "image_id": 136572,
+      "question": "How do you turn this on?",
+      "prediction": "key",
+      "ground_truth": [
+        "key",
+        "key",
+        "key",
+        "key",
+        "key",
+        "key",
+        "ignition",
+        "ignition",
+        "with key",
+        "with key"
+      ],
+      "vqa_accuracy": 1.0,
+      "exact_match": true
+    },
+    {
+      "question_id": 5775245,
+      "image_id": 577524,
+      "question": "How tall is this animal usually?",
+      "prediction": "very tall",
+      "ground_truth": [
+        "20 feet",
+        "20 feet",
+        "20 feet",
+        "20 feet",
+        "12 ft",
+        "12 ft",
+        "15 feet",
+        "15 feet",
+        "13ft",
+        "13ft"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    },
+    {
+      "question_id": 2707535,
+      "image_id": 270753,
+      "question": "How much tomato sauce is in this dish?",
+      "prediction": "lot",
+      "ground_truth": [
+        "2 cups",
+        "2 cups",
+        "2 cups",
+        "2 cups",
+        "half cup",
+        "half cup",
+        "1 4 cup",
+        "1 4 cup",
+        "2 cans",
+        "2 cans"
+      ],
+      "vqa_accuracy": 0.0,
+      "exact_match": false
+    }
+  ]
+}
